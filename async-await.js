@@ -12,3 +12,13 @@ const myfun = async() => {
     console.log("sanjay")
 };
 myfun();
+
+
+
+const hlo = async() => {
+    console.log("This is one function")
+    const how = await myname("Async program");
+    console.log(how)
+    console.log("Final program")
+}
+hlo();
