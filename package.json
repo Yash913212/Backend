@@ -2,8 +2,8 @@
     "name": "backend-root",
     "version": "1.0.0",
     "type": "module",
-    "main": "Project/index.js",
+    "main": "Middleware/index.js",
     "scripts": {
-        "start": "node Project/index.js"
+        "start": "node Middleware/index.js"
     }
 }

@@ -12,7 +12,7 @@ app.get('/get-data', (req, res) => {
 
 app.put('/update-data', (req, res) => {
     let data = req.body;
-    console.log('Updating data with:', data);
+    console.log('Updating data :', data);
     res.send(`Data updated successfully`);
 });
 
@@ -28,6 +28,12 @@ app.delete('/delete-data', (req, res) => {
     res.send(`Data deleted successfully with ID ${id}`);
 });
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.get('/', (req, res) => {
+    res.send('API Servers are running at:');
+});
+
+const PORT = 7000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+    console.log('Routes: GET /get-data, POST /post-data, PUT /update-data, DELETE /delete-data');
 });
