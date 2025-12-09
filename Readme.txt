@@ -14,3 +14,13 @@ if we type /users from the index.js file it will goes to the server and inside t
 in this we use req,res means request and response
 
 from front end to backend it is request and from backend ti front end it is response
+
+HTTP responses
+200 -> OK(success) {GET,PUT,DELETE}
+201 -> crashed(POST)
+203 -> No text(PUT,DELETE)
+400 -> Bad request (POST)
+401 -> Unauthorized
+404 -> Not found
+409 -> Conflict
+500 -> Internal server error
