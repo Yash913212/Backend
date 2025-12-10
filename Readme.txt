@@ -26,3 +26,8 @@ HTTP responses
 500 -> Internal server error
 502 -> Bad Gateway
 503 -> Service unavailable
+
+
+--------------------------------------------------------------
+
+MVC -> Model View Controller.
