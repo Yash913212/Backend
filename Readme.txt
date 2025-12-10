@@ -17,10 +17,12 @@ from front end to backend it is request and from backend ti front end it is resp
 
 HTTP responses
 200 -> OK(success) {GET,PUT,DELETE}
-201 -> crashed(POST)
+201 -> created used in (POST)
 203 -> No text(PUT,DELETE)
 400 -> Bad request (POST)
 401 -> Unauthorized
 404 -> Not found
 409 -> Conflict
 500 -> Internal server error
+502 -> Bad Gateway
+503 -> Service unavailable
