@@ -7,7 +7,7 @@ some core modules are
 4.os
 5.event etc...
 
-Index.js is the basic structure to start a server and 
+index.js is the basic structure to start a server and
 / -> means root path it can find the paths in the running server 
 
 if we type /users from the index.js file it will goes to the server and inside the module

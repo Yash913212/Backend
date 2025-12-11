@@ -2,7 +2,7 @@
     "name": "backend-root",
     "version": "1.0.0",
     "type": "module",
-    "main": "Middleware/index.js",
+    "main": "../middleware/index.js",
     "scripts": {
         "start": "node Middleware/index.js"
     }
